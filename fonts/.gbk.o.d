@@ -1,5 +1,5 @@
 gbk.o: gbk.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
  /usr/arm-linux-gnueabihf/include/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
  /usr/arm-linux-gnueabihf/include/features.h \
@@ -21,8 +21,8 @@ gbk.o: gbk.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
- /media/sf_code/14.digial_photo_frame/include/fonts_manager.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/fonts_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/types.h \
  /usr/arm-linux-gnueabihf/include/bits/types/clock_t.h \
  /usr/arm-linux-gnueabihf/include/bits/types/clockid_t.h \

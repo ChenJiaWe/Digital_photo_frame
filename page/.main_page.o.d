@@ -1,5 +1,5 @@
 main_page.o: main_page.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
  /usr/arm-linux-gnueabihf/include/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
  /usr/arm-linux-gnueabihf/include/features.h \
@@ -21,13 +21,13 @@ main_page.o: main_page.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
- /media/sf_code/14.digial_photo_frame/include/render.h \
- /media/sf_code/14.digial_photo_frame/include/pic_operation.h \
- /media/sf_code/14.digial_photo_frame/include/file.h \
- /media/sf_code/14.digial_photo_frame/include/disp_manager.h \
- /media/sf_code/14.digial_photo_frame/include/page_manager.h \
- /media/sf_code/14.digial_photo_frame/include/input_manager.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/render.h \
+ /media/sf_code/digial_photo_frame/include/pic_operation.h \
+ /media/sf_code/digial_photo_frame/include/file.h \
+ /media/sf_code/digial_photo_frame/include/disp_manager.h \
+ /media/sf_code/digial_photo_frame/include/page_manager.h \
+ /media/sf_code/digial_photo_frame/include/input_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/time.h \
  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \

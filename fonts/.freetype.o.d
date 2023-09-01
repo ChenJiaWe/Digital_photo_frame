@@ -1,5 +1,5 @@
 freetype.o: freetype.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
  /usr/arm-linux-gnueabihf/include/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
  /usr/arm-linux-gnueabihf/include/features.h \
@@ -21,8 +21,8 @@ freetype.o: freetype.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
- /media/sf_code/14.digial_photo_frame/include/fonts_manager.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/fonts_manager.h \
  /usr/include/ft2build.h /usr/include/freetype/config/ftheader.h \
  /usr/include/freetype/freetype.h /usr/include/freetype/config/ftconfig.h \
  /usr/include/freetype/config/ftoption.h \

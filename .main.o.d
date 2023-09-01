@@ -59,14 +59,14 @@ main.o: main.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
- /media/sf_code/14.digial_photo_frame/include/encoding_manager.h \
- /media/sf_code/14.digial_photo_frame/include/fonts_manager.h \
- /media/sf_code/14.digial_photo_frame/include/disp_manager.h \
- /media/sf_code/14.digial_photo_frame/include/pic_operation.h \
- /media/sf_code/14.digial_photo_frame/include/file.h \
- /media/sf_code/14.digial_photo_frame/include/input_manager.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/encoding_manager.h \
+ /media/sf_code/digial_photo_frame/include/fonts_manager.h \
+ /media/sf_code/digial_photo_frame/include/disp_manager.h \
+ /media/sf_code/digial_photo_frame/include/pic_operation.h \
+ /media/sf_code/digial_photo_frame/include/file.h \
+ /media/sf_code/digial_photo_frame/include/input_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/time.h \
  /usr/arm-linux-gnueabihf/include/pthread.h \
  /usr/arm-linux-gnueabihf/include/sched.h \
@@ -79,13 +79,13 @@ main.o: main.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \
  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
- /media/sf_code/14.digial_photo_frame/include/render.h \
- /media/sf_code/14.digial_photo_frame/include/page_manager.h \
+ /media/sf_code/digial_photo_frame/include/render.h \
+ /media/sf_code/digial_photo_frame/include/page_manager.h \
  /usr/arm-linux-gnueabihf/include/string.h \
  /usr/arm-linux-gnueabihf/include/strings.h \
  /usr/arm-linux-gnueabihf/include/bits/strings_fortified.h \
  /usr/arm-linux-gnueabihf/include/bits/string_fortified.h \
- /media/sf_code/14.digial_photo_frame/include/picfmt_manager.h \
+ /media/sf_code/digial_photo_frame/include/picfmt_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/stat.h \
  /usr/arm-linux-gnueabihf/include/bits/stat.h \
  /usr/arm-linux-gnueabihf/include/fcntl.h \

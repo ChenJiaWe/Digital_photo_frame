@@ -1,5 +1,5 @@
 stdout.o: stdout.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
  /usr/arm-linux-gnueabihf/include/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
  /usr/arm-linux-gnueabihf/include/features.h \
@@ -21,7 +21,7 @@ stdout.o: stdout.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
  /usr/arm-linux-gnueabihf/include/string.h \
  /usr/arm-linux-gnueabihf/include/bits/types/locale_t.h \
  /usr/arm-linux-gnueabihf/include/bits/types/__locale_t.h \

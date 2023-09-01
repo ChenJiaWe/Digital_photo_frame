@@ -1,6 +1,6 @@
 page_manager.o: page_manager.c \
  /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/config.h \
+ /media/sf_code/digial_photo_frame/include/config.h \
  /usr/arm-linux-gnueabihf/include/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/libc-header-start.h \
  /usr/arm-linux-gnueabihf/include/features.h \
@@ -22,9 +22,9 @@ page_manager.o: page_manager.c \
  /usr/arm-linux-gnueabihf/include/bits/sys_errlist.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio.h \
  /usr/arm-linux-gnueabihf/include/bits/stdio2.h \
- /media/sf_code/14.digial_photo_frame/include/debug_manager.h \
- /media/sf_code/14.digial_photo_frame/include/page_manager.h \
- /media/sf_code/14.digial_photo_frame/include/input_manager.h \
+ /media/sf_code/digial_photo_frame/include/debug_manager.h \
+ /media/sf_code/digial_photo_frame/include/page_manager.h \
+ /media/sf_code/digial_photo_frame/include/input_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/time.h \
  /usr/arm-linux-gnueabihf/include/bits/types/time_t.h \
  /usr/arm-linux-gnueabihf/include/bits/types/struct_timeval.h \
@@ -56,10 +56,10 @@ page_manager.o: page_manager.c \
  /usr/arm-linux-gnueabihf/include/bits/thread-shared-types.h \
  /usr/arm-linux-gnueabihf/include/bits/pthreadtypes-arch.h \
  /usr/arm-linux-gnueabihf/include/bits/setjmp.h \
- /media/sf_code/14.digial_photo_frame/include/disp_manager.h \
- /media/sf_code/14.digial_photo_frame/include/pic_operation.h \
- /media/sf_code/14.digial_photo_frame/include/file.h \
- /media/sf_code/14.digial_photo_frame/include/render.h \
+ /media/sf_code/digial_photo_frame/include/disp_manager.h \
+ /media/sf_code/digial_photo_frame/include/pic_operation.h \
+ /media/sf_code/digial_photo_frame/include/file.h \
+ /media/sf_code/digial_photo_frame/include/render.h \
  /usr/arm-linux-gnueabihf/include/string.h \
  /usr/arm-linux-gnueabihf/include/strings.h \
  /usr/arm-linux-gnueabihf/include/bits/strings_fortified.h \

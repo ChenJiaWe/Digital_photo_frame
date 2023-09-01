@@ -28,13 +28,6 @@ int main(int argc, char **argv)
 	DebugInit();
 	InitDebugChanel();
 
-	if (argc != 2)
-	{
-		DBG_PRINTF("Usage:\n");
-		DBG_PRINTF("%s <freetype_file>\n", argv[0]);
-		return 0;
-	}
-
 	DisplayInit();
 	SelectAndInitDefaultDispDev("fb");
 
@@ -49,7 +42,7 @@ int main(int argc, char **argv)
 		DBG_PRINTF("FontsInit error!\n");
 	}
 
-	iError = SetFontsDetail("freetype", argv[1], 24);
+	iError = SetFontsDetail("freetype", "./SIMSUN.TTC", 24);
 	if (iError)
 	{
 		DBG_PRINTF("SetFontsDetail error!\n");

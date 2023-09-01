@@ -1,5 +1,5 @@
 stdin.o: stdin.c /usr/arm-linux-gnueabihf/include/stdc-predef.h \
- /media/sf_code/14.digial_photo_frame/include/input_manager.h \
+ /media/sf_code/digial_photo_frame/include/input_manager.h \
  /usr/arm-linux-gnueabihf/include/sys/time.h \
  /usr/arm-linux-gnueabihf/include/features.h \
  /usr/arm-linux-gnueabihf/include/sys/cdefs.h \
