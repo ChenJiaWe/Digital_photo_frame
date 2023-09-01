@@ -1,0 +1,17 @@
+{
+  "files.associations": {
+    "config.h": "c",
+    "string.h": "c",
+    "page_manager.h": "c",
+    "stdio.h": "c",
+    "input_manager.h": "c",
+    "stdlib.h": "c",
+    "draw.h": "c",
+    "jpeglib.h": "c",
+    "disp_manager.h": "c",
+    "debug_manager.h": "c",
+    "pic_operation.h": "c",
+    "picfmt_manager.h": "c",
+    "encoding_manager.h": "c"
+  }
+}
