@@ -6,7 +6,7 @@
 #include <unistd.h>
 
 static pthread_t g_tAutoPlayThreadID;
-static pthread_mutex_t g_tAutoPlayThreadMutex = PTHREAD_MUTEX_INITIALIZER; /* ������ */
+static pthread_mutex_t g_tAutoPlayThreadMutex = PTHREAD_MUTEX_INITIALIZER;
 static int g_bAutoPlayThreadShouldExit = 0;
 static T_PageCfg g_tPageCfg;
 
@@ -90,6 +90,46 @@ static int GetNextAutoPlayFile(char *strFileName)
     return -1;
 }
 
+static int IsImageFile(const char *filename)
+{
+    FILE *file = fopen(filename, "rb");
+    unsigned char header[4];
+    if (file == NULL)
+    {
+        return 0;
+    };
+    if (fread(header, 1, 4, file) != 4)
+    {
+        fclose(file);
+        return 0;
+    };
+    fclose(file);
+
+    // 检查文件头部是否匹配常见的图片格式标识符
+    if (header[0] == 0xFF && header[1] == 0xD8 && header[2] == 0xFF)
+    {
+        // JPEG 文件以 0xFF 0xD8 0xFF 开头
+        return 1; // 是图片文件
+    }
+    else if (header[0] == 0x89 && header[1] == 'P' && header[2] == 'N' && header[3] == 'G')
+    {
+        // PNG 文件以 0x89 'P' 'N' 'G' 开头
+        return 1; // 是图片文件
+    }
+    else if (header[0] == 'G' && header[1] == 'I' && header[2] == 'F' && header[3] == '8')
+    {
+        // GIF 文件以 'G' 'I' 'F' '8' 开头
+        return 1; // 是图片文件
+    }
+    else if (header[0] == 0x42 && header[1] == 0x4D)
+    {
+        // BMP 文件以 0x42 0x4D 开头
+        return 1; // 是图片文件
+    }
+
+    return 0; // 不是常见的图片文件格式
+};
+
 static PT_VideoMem PrepareNextPicture(int bCur)
 {
     T_PixelDatas tOriginIconPixelDatas;
@@ -100,7 +140,6 @@ static PT_VideoMem PrepareNextPicture(int bCur)
     int iTopLeftX, iTopLeftY;
     float k;
     char strFileName[256];
-
     GetDispResolution(&iXres, &iYres, &iBpp);
 
     ptVideoMem = GetVideoMem(-1, bCur);
@@ -114,6 +153,14 @@ static PT_VideoMem PrepareNextPicture(int bCur)
     while (1)
     {
         iError = GetNextAutoPlayFile(strFileName);
+        if (!IsImageFile(strFileName))
+        {
+            continue;
+        }
+        if (IsImageFile(strFileName))
+        {
+            printf("这是一个图片文件。\n");
+        }
         if (iError)
         {
             DBG_PRINTF("GetNextAutoPlayFile error\n");

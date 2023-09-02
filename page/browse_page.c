@@ -600,6 +600,7 @@ static void DeSelectDirFileIcon(int iDirFileIndex)
 #define DIRFILE_ICON_INDEX_BASE 1000
 static void BrowsePageRun(void)
 {
+
     int iIndex;
     T_InputEvent tInputEvent;
     T_InputEvent tInputEventPrePress;

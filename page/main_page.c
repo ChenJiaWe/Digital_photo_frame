@@ -148,6 +148,12 @@ static void MainPageRun(void)
 				{
 					switch (iIndexPressed)
 					{
+					case 0:
+					{
+						Page("browse")->Run();
+						ShowMainPage(&g_tMainPageLayout);
+						break;
+					};
 					case 1: /* 连播按钮 */
 					{
 						Page("auto")->Run();
